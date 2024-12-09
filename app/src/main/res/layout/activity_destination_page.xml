@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2C8C8"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/favoritePageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F1A5A5"
+        android:text="View Favorites"
+        app:iconTint="#FAF6F6" />
+
+    <ListView
+        android:id="@+id/destinationListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBDEDE" />
+
+
+</LinearLayout>
