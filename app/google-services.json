@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454599446268",
+    "project_id": "s4project-d7045",
+    "storage_bucket": "s4project-d7045.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454599446268:android:5843fcda4386da596a5179",
+        "android_client_info": {
+          "package_name": "com.example.projecttranslatorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJTPh2_aUfswGo-_Ed4YvGVBUsjbR2hSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
