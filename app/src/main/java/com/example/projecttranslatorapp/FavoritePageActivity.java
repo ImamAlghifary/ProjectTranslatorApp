@@ -1,4 +1,4 @@
-package com.example.projectfinal;
+package com.example.projecttranslatorapp;
 
 import android.os.Bundle;
 import android.widget.ListView;

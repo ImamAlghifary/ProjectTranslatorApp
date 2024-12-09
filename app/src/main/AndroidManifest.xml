@@ -24,11 +24,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectTranslatorApp">
         <activity
+            android:name=".AddDestination"
+            android:exported="false"
+            android:theme="@style/Theme.ProjectTranslatorApp" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity
+            android:name=".DestinationPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoritePageActivity"
+            android:exported="false" />
+        <activity
             android:name=".Login"
-            android:exported="false" ></activity> <!-- TextDetector Activity -->
+            android:exported="false" /> <!-- TextDetector Activity -->
         <activity
             android:name=".TextDetector"
             android:exported="false" /> <!-- translatePage Activity -->
@@ -41,6 +51,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

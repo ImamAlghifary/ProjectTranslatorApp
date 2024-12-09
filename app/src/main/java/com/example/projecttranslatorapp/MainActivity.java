@@ -13,8 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 
 public class MainActivity extends AppCompatActivity {
-    private CardView btnTranslator, btnRec, btnFav;
-    private Button btnLogOut;
+    private CardView btnTranslator, btnRec, btnFav, btnLogOut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +42,17 @@ public class MainActivity extends AppCompatActivity {
         btnRec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent openRec = new Intent(getApplicationContext(),TextDetector.class);
+                Intent openRec = new Intent(getApplicationContext(),DestinationPageActivity.class);
                 startActivities(new Intent[]{openRec});
             }});
+
+        btnFav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent openFav = new Intent(getApplicationContext(), FavoritePageActivity.class);
+                startActivity(openFav);
+            }
+        });
 
         btnLogOut.setOnClickListener(new View.OnClickListener() {
             @Override

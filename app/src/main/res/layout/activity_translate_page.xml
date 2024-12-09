@@ -34,20 +34,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/idFromSpinner"
+            android:padding="3dp"
             android:layout_margin="3dp"
             android:gravity="center" />
 
-        <Button
+        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSwitch"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:text="Switch"
-            android:layout_gravity="center"
-            />
-
+            android:src="@drawable/baseline_swap_horiz_24"
+            android:id="@+id/btnSwitch"
+            app:tint="@color/black"
+            android:contentDescription="Swap Icon to Swap Language" />
 
         <Spinner
             android:layout_width="0dp"
@@ -132,7 +133,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
         android:id="@+id/btnTranslate"
-        android:text="TRANSLATE"
+        android:text="Translate"
         android:textAllCaps="false"
         style="?attr/materialButtonStyle" />
     <Button

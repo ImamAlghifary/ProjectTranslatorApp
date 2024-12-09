@@ -9,7 +9,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -47,9 +46,8 @@ import com.google.mlkit.vision.text.latin.TextRecognizerOptions;
 public class translatePage extends AppCompatActivity {
     private Spinner fromSpinner, toSpinner;
     private TextInputEditText sourceEdt, translatedTV;
-    private ImageView micIV;
+    private ImageView micIV, btnSwitch;
     private MaterialButton translateBtn;
-    private Button btnSwitch;
     private ImageView img;
     private Button snapBtn;
     private Button detectBtn;

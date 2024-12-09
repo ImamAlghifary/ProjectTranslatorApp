@@ -1,4 +1,4 @@
-package com.example.projectfinal;
+package com.example.projecttranslatorapp;
 
 public class Destination {
     private String title;

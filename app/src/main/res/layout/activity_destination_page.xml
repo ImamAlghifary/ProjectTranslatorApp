@@ -2,22 +2,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E2C8C8"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/favoritePageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F1A5A5"
-        android:text="View Favorites"
-        app:iconTint="#FAF6F6" />
-
-    <ListView
-        android:id="@+id/destinationListView"
+        android:text="View Favorites" />
+    <Button
+        android:id="@+id/addDestinationButton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FBDEDE" />
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp"
 
-
+        android:layout_margin="5dp">
+        <ListView
+            android:id="@+id/destinationListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
